@@ -1,71 +1,77 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+const moment = require('moment');
 var app = express();
 
-
+var MongoClient = require('mongodb').MongoClient;
+var url = "mongodb://127.0.0.1:27017/";
 
 app.use(bodyParser.json());
 
-app.get('/rota', function(req, res) {
-   
-    console.log("entrou na rota");
-//   console.log(req.query);
 
-//   var MongoClient = require('mongodb').MongoClient;
-//   var url = "mongodb://127.0.0.1:27017/";
-
-//   MongoClient.connect(url, function(err, db) {
-//     if (err) throw err;
-//     var dbo = db.db("topicos_hardware");
-//     var myobj = req.query;
-//     dbo.collection("dados").insertOne(myobj, function(err, res) {
-//       if (err) throw err;
-//       console.log("1 document inserted");
-//       db.close();
-//     });
-//   });
-
-
-  res.send("success");
+app.get('/checar_hora', function (req, res) {
+  var data = new moment().format('LT');
+  res.send(data);
 });
 
-// app.get('/getData', function(req, res) {
-   
-  
-//   console.log(req.query);
-  
-  
+app.get('/posso_comecar', function (req, res) {
+  var myobj = req.query;
 
-//   var MongoClient = require('mongodb').MongoClient;
-//   var url = "mongodb://127.0.0.1:27017/";
+  MongoClient.connect(url, function (err, db) {
+    if (err) throw err;
+    var dbo = db.db("Projeto_felski");
 
-//   MongoClient.connect(url, function(err, db) {
-//     if (err) throw err;
-//     var dbo = db.db("topicos_hardware");
-//     var myobj = req.query;
-
-
-//     dbo.collection("dados").findOne(myobj, function(err, result) {
-//       if (err) throw err;
-//       // console.log("1 document inserted");
-//       db.close();
-
-//       if (!result){
-//         res.send("not found");
-//       }else{
-//         res.send(result);
-//       }
-
-      
-//     });
+    dbo.collection("tabela").findOne(myobj, function (err, result) {
+      if (err) {
+        res.status(500).send('Erro interno');
+        throw err;
+      }
+      console.log(result);
+      db.close();
+      res.status(200).send(result.pode_startar);
+    });
+  });
+});
 
 
-//   });
+app.get('/terminei', function (req, res) {
+  var myobj = req.query;
+
+  MongoClient.connect(url, function (err, db) {
+    if (err) throw err;
+    var dbo = db.db("Projeto_felski");
+
+    dbo.collection("tabela").findOne(myobj, function (err, result_find) {
+      if (err) {
+        res.status(500).send('Erro interno');
+        throw err;
+      }
+      console.log("resultado busca");
+      console.log(result_find);
 
 
-//   // res.send("not found");
-// });
+      dbo.collection("tabela").updateOne({ "id_grupo": result_find.id_grupo }, { $set: { "finished": true } }, function (err, result) {
+        if (err) {
+          res.status(500).send('Erro interno2');
+          throw err;
+        }
+        console.log(result);
+      });
 
-app.listen(3000, function() {
+      dbo.collection("tabela").updateOne({ "id_grupo": result_find.sequencia }, { $set: { "pode_startar": true } }, function (err, result) {
+        if (err) {
+          res.status(500).send('Erro interno2');
+          throw err;
+        }
+        console.log(result);
+      });
+
+      db.close();
+      res.status(200).send("sucesso");
+    });
+  });
+});
+
+app.listen(3000, function () {
   console.log('Servidor rodando na porta 3000.');
 });
