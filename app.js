@@ -18,7 +18,10 @@ app.get('/posso_comecar', function (req, res) {
   var myobj = req.query;
 
   MongoClient.connect(url, function (err, db) {
-    if (err) throw err;
+    if (err){
+      console.log(myobj);
+      throw err;
+    } 
     var dbo = db.db("Projeto_felski");
 
     dbo.collection("tabela").findOne(myobj, function (err, result) {
