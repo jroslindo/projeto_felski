@@ -72,6 +72,39 @@ app.get('/terminei', function (req, res) {
   });
 });
 
+app.get('/reset', function (req, res) {
+  var myobj = req.query;
+
+  MongoClient.connect(url, function (err, db) {
+    if (err) throw err;
+    var dbo = db.db("Projeto_felski");
+
+    dbo.collection("tabela").findOne(myobj, function (err, result_find) {
+      if (err) {
+        res.status(500).send('Erro interno');
+        throw err;
+      }
+      console.log("resultado busca");
+      console.log(result_find);
+
+
+      dbo.collection("tabela").updateOne({ "id_grupo": result_find.id_grupo }, { $set: { "finished": false, "pode_startar": false } }, function (err, result) {
+        if (err) {
+          res.status(500).send('Erro interno2');
+          throw err;
+        }
+        console.log(result);
+      });
+
+      db.close();
+      res.status(200).send("sucesso");
+    });
+  });
+});
+
+
+
+
 app.listen(3000, function () {
   console.log('Servidor rodando na porta 3000.');
 });
