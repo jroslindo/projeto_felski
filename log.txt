@@ -1,0 +1,519 @@
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+Servidor rodando na porta 3000.
+(node:6273) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+resultado busca
+{
+  _id: 5f771990b817f00cb0d8a7f8,
+  id_grupo: '3',
+  pode_startar: true,
+  finished: true,
+  sequencia: '4'
+}
+CommandResult {
+  result: { n: 1, nModified: 0, ok: 1 },
+  connection: Connection {
+    _events: [Object: null prototype] {
+      error: [Function],
+      close: [Function],
+      timeout: [Function],
+      parseError: [Function],
+      message: [Function]
+    },
+    _eventsCount: 5,
+    _maxListeners: undefined,
+    id: 0,
+    options: {
+      host: '127.0.0.1',
+      port: 27017,
+      size: 5,
+      minSize: 0,
+      connectionTimeout: 10000,
+      socketTimeout: 360000,
+      keepAlive: true,
+      keepAliveInitialDelay: 120000,
+      noDelay: true,
+      ssl: false,
+      checkServerIdentity: true,
+      ca: null,
+      crl: null,
+      cert: null,
+      key: null,
+      passphrase: null,
+      rejectUnauthorized: true,
+      promoteLongs: true,
+      promoteValues: true,
+      promoteBuffers: false,
+      reconnect: true,
+      reconnectInterval: 1000,
+      reconnectTries: 30,
+      domainsEnabled: false,
+      legacyCompatMode: true,
+      metadata: [Object],
+      disconnectHandler: [Store],
+      cursorFactory: [class Cursor extends CoreCursor],
+      emitError: true,
+      monitorCommands: false,
+      promiseLibrary: [Function: Promise],
+      servers: [Array],
+      caseTranslate: true,
+      directConnection: true,
+      sslValidate: true,
+      dbName: 'test',
+      socketTimeoutMS: 360000,
+      connectTimeoutMS: 10000,
+      retryWrites: true,
+      useRecoveryToken: true,
+      readPreference: [ReadPreference],
+      bson: BSON {}
+    },
+    logger: Logger { className: 'Connection' },
+    bson: BSON {},
+    tag: undefined,
+    maxBsonMessageSize: 67108864,
+    port: 27017,
+    host: '127.0.0.1',
+    socketTimeout: 360000,
+    keepAlive: true,
+    keepAliveInitialDelay: 120000,
+    connectionTimeout: 10000,
+    responseOptions: { promoteLongs: true, promoteValues: true, promoteBuffers: false },
+    flushing: false,
+    queue: [],
+    writeStream: null,
+    destroyed: false,
+    timedOut: false,
+    hashedName: '1af0a80ead1d9e3c1a02ad090ffe77ff1334aae9',
+    workItems: [],
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 360000,
+      [Symbol(asyncId)]: 32,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 360000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 44297,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 42,
+        [Symbol(triggerId)]: 32
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    buffer: null,
+    sizeOfMessage: 0,
+    bytesRead: 0,
+    stubBuffer: null,
+    ismaster: {
+      ismaster: true,
+      topologyVersion: [Object],
+      maxBsonObjectSize: 16777216,
+      maxMessageSizeBytes: 48000000,
+      maxWriteBatchSize: 100000,
+      localTime: 2020-10-16T12:08:29.106Z,
+      logicalSessionTimeoutMinutes: 30,
+      connectionId: 91,
+      minWireVersion: 0,
+      maxWireVersion: 9,
+      readOnly: false,
+      ok: 1
+    },
+    lastIsMasterMS: 10,
+    [Symbol(kCapture)]: false
+  },
+  message: BinMsg {
+    parsed: true,
+    raw: <Buffer 3c 00 00 00 3d 02 00 00 02 00 00 00 dd 07 00 00 00 00 00 00 00 27 00 00 00 10 6e 00 01 00 00 00 10 6e 4d 6f 64 69 66 69 65 64 00 00 00 00 00 01 6f 6b ... 10 more bytes>,
+    data: <Buffer 00 00 00 00 00 27 00 00 00 10 6e 00 01 00 00 00 10 6e 4d 6f 64 69 66 69 65 64 00 00 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+    bson: BSON {},
+    opts: { promoteLongs: true, promoteValues: true, promoteBuffers: false },
+    length: 60,
+    requestId: 573,
+    responseTo: 2,
+    opCode: 2013,
+    fromCompressed: undefined,
+    responseFlags: 0,
+    checksumPresent: false,
+    moreToCome: false,
+    exhaustAllowed: false,
+    promoteLongs: true,
+    promoteValues: true,
+    promoteBuffers: false,
+    documents: [ [Object] ],
+    index: 44,
+    hashedName: '1af0a80ead1d9e3c1a02ad090ffe77ff1334aae9'
+  },
+  modifiedCount: 0,
+  upsertedId: null,
+  upsertedCount: 0,
+  matchedCount: 1
+}
+CommandResult {
+  result: { n: 1, nModified: 0, ok: 1 },
+  connection: Connection {
+    _events: [Object: null prototype] {
+      error: [Function],
+      close: [Function],
+      timeout: [Function],
+      parseError: [Function],
+      message: [Function]
+    },
+    _eventsCount: 5,
+    _maxListeners: undefined,
+    id: 1,
+    options: {
+      host: '127.0.0.1',
+      port: 27017,
+      size: 5,
+      minSize: 0,
+      connectionTimeout: 10000,
+      socketTimeout: 360000,
+      keepAlive: true,
+      keepAliveInitialDelay: 120000,
+      noDelay: true,
+      ssl: false,
+      checkServerIdentity: true,
+      ca: null,
+      crl: null,
+      cert: null,
+      key: null,
+      passphrase: null,
+      rejectUnauthorized: true,
+      promoteLongs: true,
+      promoteValues: true,
+      promoteBuffers: false,
+      reconnect: true,
+      reconnectInterval: 1000,
+      reconnectTries: 30,
+      domainsEnabled: false,
+      legacyCompatMode: true,
+      metadata: [Object],
+      disconnectHandler: [Store],
+      cursorFactory: [class Cursor extends CoreCursor],
+      emitError: true,
+      monitorCommands: false,
+      promiseLibrary: [Function: Promise],
+      servers: [Array],
+      caseTranslate: true,
+      directConnection: true,
+      sslValidate: true,
+      dbName: 'test',
+      socketTimeoutMS: 360000,
+      connectTimeoutMS: 10000,
+      retryWrites: true,
+      useRecoveryToken: true,
+      readPreference: [ReadPreference],
+      bson: BSON {}
+    },
+    logger: Logger { className: 'Connection' },
+    bson: BSON {},
+    tag: undefined,
+    maxBsonMessageSize: 67108864,
+    port: 27017,
+    host: '127.0.0.1',
+    socketTimeout: 360000,
+    keepAlive: true,
+    keepAliveInitialDelay: 120000,
+    connectionTimeout: 10000,
+    responseOptions: { promoteLongs: true, promoteValues: true, promoteBuffers: false },
+    flushing: false,
+    queue: [],
+    writeStream: null,
+    destroyed: false,
+    timedOut: false,
+    hashedName: '1af0a80ead1d9e3c1a02ad090ffe77ff1334aae9',
+    workItems: [],
+    socket: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      readable: true,
+      _events: [Object: null prototype],
+      _eventsCount: 5,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      writable: true,
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 360000,
+      [Symbol(asyncId)]: 55,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 360000,
+        _idlePrev: [TimersList],
+        _idleNext: [Timeout],
+        _idleStart: 44303,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(asyncId)]: 77,
+        [Symbol(triggerId)]: 55
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    buffer: null,
+    sizeOfMessage: 0,
+    bytesRead: 0,
+    stubBuffer: null,
+    ismaster: {
+      ismaster: true,
+      topologyVersion: [Object],
+      maxBsonObjectSize: 16777216,
+      maxMessageSizeBytes: 48000000,
+      maxWriteBatchSize: 100000,
+      localTime: 2020-10-16T12:08:29.133Z,
+      logicalSessionTimeoutMinutes: 30,
+      connectionId: 92,
+      minWireVersion: 0,
+      maxWireVersion: 9,
+      readOnly: false,
+      ok: 1
+    },
+    lastIsMasterMS: 1,
+    [Symbol(kCapture)]: false
+  },
+  message: BinMsg {
+    parsed: true,
+    raw: <Buffer 3c 00 00 00 3f 02 00 00 03 00 00 00 dd 07 00 00 00 00 00 00 00 27 00 00 00 10 6e 00 01 00 00 00 10 6e 4d 6f 64 69 66 69 65 64 00 00 00 00 00 01 6f 6b ... 10 more bytes>,
+    data: <Buffer 00 00 00 00 00 27 00 00 00 10 6e 00 01 00 00 00 10 6e 4d 6f 64 69 66 69 65 64 00 00 00 00 00 01 6f 6b 00 00 00 00 00 00 00 f0 3f 00>,
+    bson: BSON {},
+    opts: { promoteLongs: true, promoteValues: true, promoteBuffers: false },
+    length: 60,
+    requestId: 575,
+    responseTo: 3,
+    opCode: 2013,
+    fromCompressed: undefined,
+    responseFlags: 0,
+    checksumPresent: false,
+    moreToCome: false,
+    exhaustAllowed: false,
+    promoteLongs: true,
+    promoteValues: true,
+    promoteBuffers: false,
+    documents: [ [Object] ],
+    index: 44,
+    hashedName: '1af0a80ead1d9e3c1a02ad090ffe77ff1334aae9'
+  },
+  modifiedCount: 0,
+  upsertedId: null,
+  upsertedCount: 0,
+  matchedCount: 1
+}
+{ id_grupo: '10' }
+null
+TypeError: Cannot read property 'pode_startar' of null
+    at /home/jroslindotab/projeto_felski/app.js:32:35
+    at executeCallback (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/operations/execute_operation.js:70:5)
+    at handleCallback (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/utils.js:102:55)
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/operations/find_one.js:29:9
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/utils.js:674:5
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/cursor.js:250:9
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:736:9
+    at handleCallback (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:31:5)
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:680:38
+    at Cursor._endSession (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:394:7)
+Servidor rodando na porta 3000.
+{ id_grupo: '10' }
+(node:6353) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+null
+TypeError: Cannot read property 'pode_startar' of null
+    at /home/jroslindotab/projeto_felski/app.js:32:35
+    at executeCallback (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/operations/execute_operation.js:70:5)
+    at handleCallback (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/utils.js:102:55)
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/operations/find_one.js:29:9
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/utils.js:674:5
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/cursor.js:250:9
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:736:9
+    at handleCallback (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:31:5)
+    at /home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:680:38
+    at Cursor._endSession (/home/jroslindotab/projeto_felski/node_modules/mongodb/lib/core/cursor.js:394:7)
+Servidor rodando na porta 3000.
+{ id_grupo: '7' }
+(node:6423) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+{
+  _id: 5f7719dab817f00cb0d8a7fc,
+  id_grupo: '7',
+  pode_startar: false,
+  finished: true,
+  sequencia: '0'
+}
+{ id_grupo: '7' }
+{
+  _id: 5f7719dab817f00cb0d8a7fc,
+  id_grupo: '7',
+  pode_startar: false,
+  finished: true,
+  sequencia: '0'
+}
+{ id_grupo: '7' }
+{
+  _id: 5f7719dab817f00cb0d8a7fc,
+  id_grupo: '7',
+  pode_startar: false,
+  finished: true,
+  sequencia: '0'
+}
+{ id_grupo: '0' }
+{
+  _id: 5f6dfd9083e7622c034880b2,
+  id_grupo: '0',
+  pode_startar: false,
+  finished: false,
+  sequencia: '1'
+}
